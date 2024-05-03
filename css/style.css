@@ -1,6 +1,10 @@
 /* Your styles here */
-* {
-    font-family: 'Times New Roman', Times, serif;
+@font-face {
+    font-family: myfirstfont;
+    src: url(../Testi.rtf);
+}
+*{
+    font-family: myfirstfont;
 }
 html{
     min-width: 450px;
