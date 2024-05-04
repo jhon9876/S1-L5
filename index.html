@@ -3,80 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout web page</title>
+    <title>Prova</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   </head>
   <body>
     <header>
+      <!--inserire logo -->
       <img src="./images/logo.png" alt="logo epicode" />
     </header>
-
     <main>
-      <section id="Immagine-di-background">
-        <h1 class="margine" id="Dimensione-titolo">Corso Web Developer</h1>
-        <article class="margine">
-          Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono arricchire il CV, tu pensa ad arricchire le tue competenze.
-        </article>
-        <article class="margine">
-          <input id="Colore-bottone" type="button" value="PARTIAMO!" />
-        </article>
+      <!-- abbiamo 5 blocchi distinti -->
+      <section id="blocco-background-image">
+        <h1 class="margin">CORSO WEB <br />DEVELOPER</h1>
+        <p class="margin">
+          Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono arricchire il CV, tu pensa ad arricchire le tue compentenze.
+        </p>
+        <button class="margin" type="button">PARTIAMO!</button>
       </section>
-      <section class="Sezioni">
-        <article>
+      <section>
+        <div class="Allineamento">
           <h3>Tutti ti cercheranno</h3>
           <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più</p>
-        </article>
-
-        <article>
+        </div>
+        <div class="Allineamento">
           <h3>Lavora dove vuoi</h3>
           <p>Lavora da casa, in riva al mare o in montagna</p>
-        </article>
+          <img id="Immagine-rotonda" src="./images/notebook.jpg" alt="Immagine di un pc" />
+        </div>
 
-        <article>
-          <img class="Dimensione-immagini" id="immagine-rotonda" src="./images/notebook.jpg" alt="Immagine di un pc" />
-        </article>
-
-        <article>
+        <div class="Allineamento">
           <h3>Scegli il tuo ruolo</h3>
-          <p>Potrai scegliere se essere Azienda Freelance o Startup</p>
-        </article>
-        <article>
+          <p>
+            Potrai scegliere se essere Azienda, <br />
+            Freelance o Startup
+          </p>
+        </div>
+        <div class="Allineamento">
           <h3>Lavoro in libertà</h3>
-          <p class="distanziamento-elementi">Non serve lavorare in ufficio per essere creatori di prodotti digitali</p>
-        </article>
+          <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali</p>
+        </div>
+        <div class="Allineamento" id="bg-r">
+          <h2>EPICODE GARANTISCE</h2>
+          <p class="margin">"3 mesi intensivi di corso che cambieranno radicalmente la tua vita"</p>
+
+          <p>Mario Rossi</p>
+          <p>CEO, Epicode</p>
+        </div>
       </section>
-      <section class="Sezioni" id="colore-rosso">
-        <article>
-          <h2 class="margine">Epicode Garantisce</h2>
-        </article>
-        <article class="margine">"3 mesi intensivi di corso che cambieranno radicalmente la tua vita"</article>
-        <article>Mario Rossi</article>
-        <article>CEO, Epicode</article>
-      </section>
-      <section class="Sezioni">
-        <img class="Dimensione-immagini" src="./images/foto1.jpg" alt="Altra immagine di un pc" />
-        <h3>Il tuo PC</h3>
-        <article class="margine">Se vuoi diventare developer è l'unico strumento di cui hai bisogno</article>
-      </section>
-      <section class="Sezioni">
-        <img class="Dimensione-immagini" src="./images/foto2.jpg" alt="Immagine di un computer chiuso" />
-        <h3>Impara ora</h3>
-        <article class="margine" id="margine-frasi">Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro</article>
-      </section>
-      <section class="Sezioni">
-        <img class="Dimensione-immagini" src="./images/foto3.jpg" alt="Immagine di un posto di lavoro" />
-        <h3>Lavora subito</h3>
-        <article class="margine">Sappiamo cosa vogliono le aziende, perchè lavoriamo con loro</article>
+      <section>
+        <div class="Riquadri">
+          <img class="tre-immagini" src="./images/foto1.jpg" alt="foto di un pc" />
+          <h3 class="margin">Il tuo PC</h3>
+          <p>Se vuoi diventare developer è l'unico strumento di cui hai bisogno</p>
+        </div>
+        <div class="Riquadri">
+          <img class="tre-immagini" src="./images/foto2.jpg" alt="foto di un pc" />
+          <h3 class="margin">Impara ora</h3>
+          <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro</p>
+        </div>
+        <div class="Riquadri">
+          <img class="tre-immagini" src="./images/foto3.jpg" alt="foto postazione di lavoro" />
+          <h3 class="margin">Lavora subito</h3>
+          <p>Sappiamo cosa vogliono le aziende, perchè lavoriamo con loro</p>
+        </div>
       </section>
     </main>
-
-    <footer class="Sezioni" id="Parte-finale">
-      <p id="Contact">Contattaci</p>
-      <a href="tel:+3911223456">(+39) 11223456</a>
-      <br />
-      <a class="distanziamento-elementi" href="mailto:info@epicode.school">info@epicode.school</a>
+    <footer>
+      <p id="Contact" class="margin">Contattaci</p>
+      <div class="margin">
+        <a href="tel:+3911223456">(+39) 11223456</a>
+        <br />
+        <a href="mailto:info@epicode.school">info@epicode.school</a>
+      </div>
       <p>Via Appia 1 - 00100 Roma (RM)</p>
       <hr />
 
