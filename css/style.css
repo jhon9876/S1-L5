@@ -2,6 +2,7 @@ body{
     max-width: 500px;
     min-width: 450px;
     margin:auto;
+    font-family:sans-serif ;
 }
 
 header{
@@ -16,13 +17,14 @@ header img{
 
 #blocco-background-image{
     padding: 30px;
-    height: 160px;
+    height: 190px;
     background-image: url(../images/banner.jpg);
     text-align: center;
 }
 
 #blocco-background-image h1{
     font-size: 30px;
+    font-weight: bold;
     color: rgb(28, 59, 150);
 }
 
@@ -30,13 +32,19 @@ header img{
     margin-bottom: 15px;
 }
 
-#blocco-background-image button{
+ button{
     width: 100px;
     height: 40px;
     background-color: rgb(240, 100, 0);
     border-radius: 10px;
-   
+    color: white;
+    font-weight: bold;
+    
 }
+button:hover{
+    background-color: rgb(240, 80, 0);
+}
+
 
 .Allineamento{
     text-align: center;
@@ -47,7 +55,10 @@ header img{
 .Allineamento h3{
     margin-bottom: 20px;
     font-size: 20px;
+    
     color: rgb(19, 114, 114);
+    font-weight: bold;
+    
 }
 
 #Immagine-rotonda{
@@ -62,7 +73,9 @@ header img{
 }
 .Allineamento h2{
     font-size: 30px;
+    font-weight: bold;
     margin-bottom: 10px;
+
 }
 
 .tre-immagini{
@@ -78,21 +91,35 @@ header img{
   margin-right: 50px;
   border: 1px solid;
   margin-bottom: 50px;
+ 
+
 }
 
 .Riquadri h3{
     margin-bottom: 20px;
     font-size: 20px;
+    font-weight: bold;
+    
     color: rgb(19, 114, 114);
+    
 }
 
 footer{
     background-color: rgb(87, 90, 119);
     text-align: center;
+    font-weight: bold;
     color: white;
 }
 #Contact{
     font-size: 30px;
     
     
+}
+
+a{
+    color:white;
+    line-height: 1.6;
+}
+p{
+    line-height: 1.6;
 }
